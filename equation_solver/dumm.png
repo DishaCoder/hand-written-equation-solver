@@ -1,0 +1,18 @@
+git init
+git remote add origin <url>
+
+git add .(for all)/-u(for modified tracked)
+
+git commit -m "message"
+git status
+git branch -a(show branches including remote)
+git push origin <branch_name>
+
+pull = fetch + merge
+
+git pull origin <branch_name>
+
+git fetch origin <branch_name>(remote branch eg.main and HEAD is at newdesign)
+git merge origin HEAD
+
+
